@@ -1,3 +1,14 @@
-@import "reset";
-
 $background: #121214;
+$text: #a8a8b3;
+$title: #e1e1e6;
+
+$mobile: 425px;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import "reset";
+@import "text";
+@import "footer";
+
+body {
+  background: $background;
+}

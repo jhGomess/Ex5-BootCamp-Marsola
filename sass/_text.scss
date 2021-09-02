@@ -1,0 +1,15 @@
+@mixin title {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36px;
+  color: $title;
+}
+
+@mixin text {
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  color: $text;
+}
